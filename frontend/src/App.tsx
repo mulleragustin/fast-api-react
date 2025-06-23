@@ -27,15 +27,7 @@ function App() {
           path="/"
           element={
             <ProtectedRoute isAuthenticated={!!token}>
-              <Home />
-              <div className="flex justify-center mt-8">
-                <button
-                  onClick={handleLogout}
-                  className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                >
-                  Cerrar sesión
-                </button>
-              </div>
+              <Home token={token} handleLogout={handleLogout} />
             </ProtectedRoute>
           }
         />

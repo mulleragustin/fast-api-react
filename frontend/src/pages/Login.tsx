@@ -35,14 +35,14 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-blue-300">
+    <div className="flex items-center justify-center min-h-screen">
       <form
         onSubmit={handleSubmit}
-        className="bg-white p-8 rounded-lg shadow-md w-full max-w-sm"
+        className="bg-slate-900 text-white p-8 rounded-lg shadow-md w-full max-w-sm"
       >
-        <h2 className="text-2xl font-bold mb-6 text-blue-800 text-center">Iniciar sesión</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">Iniciar sesión</h2>
         <div className="mb-4">
-          <label className="block text-blue-700 mb-2">Usuario</label>
+          <label className="block mb-2">Usuario</label>
           <input
             type="text"
             className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -52,7 +52,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
           />
         </div>
         <div className="mb-6">
-          <label className="block text-blue-700 mb-2">Contraseña</label>
+          <label className="block mb-2">Contraseña</label>
           <input
             type="password"
             className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
