@@ -2,6 +2,7 @@
 venv
 .env
 __pycache__
+__init__.py
 node_modules
 notas.txt
 sql_app.db

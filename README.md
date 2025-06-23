@@ -27,6 +27,16 @@ python main.py
 ```
 
 - El backend corre en: `http://localhost:8000`
+### Para produccion
+
+Generar un arhivo env con:
+Cambia a True para producción (MySQL), False para desarrollo (SQLite)
+-PRODUCTION=False
+Si vas a usar en produccion usar:
+-DB_URL=mysql+mysqlconnector://usuario:contraseña@localhost/nombre_db
+else:
+-SQLITE_URL=sqlite:///./sql_app.db
+
 
 ### Endpoints principales
 - `POST /auth/register` — Registro de usuario
