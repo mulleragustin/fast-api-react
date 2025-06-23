@@ -1,0 +1,7 @@
+.github
+venv
+.env
+__pycache__
+node_modules
+notas.txt
+sql_app.db
