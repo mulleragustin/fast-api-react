@@ -9,6 +9,9 @@ fast-api-react/
 ├── backend/   # FastAPI, SQLAlchemy, autenticación JWT
 └── frontend/  # React, Vite, TypeScript, TailwindCSS
 ```
+
+## Backend (FastAPI)
+
 Resumen visual:
 ```
 models/ → Estructura de la base de datos
@@ -18,8 +21,6 @@ utils/ → Funciones auxiliares
 main.py → Configuración y arranque de la app
 ```
 ---
-
-## Backend (FastAPI)
 
 - Autenticación JWT (registro, login, usuario actual)
 - ORM: SQLAlchemy
